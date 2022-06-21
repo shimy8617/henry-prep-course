@@ -35,26 +35,34 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  var sumarDosNum = x+y;
+  return sumarDosNum
 }
+suma(2,3)
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  restarDosNum = x - y
+  return restarDosNum
 }
+resta(6,3)
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  multDosNum = x * y
+  return multDosNum
 }
+multiplica(2,6)
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  divDosNum = x / y
+  return divDosNum  
 }
+divide(36,6)
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
